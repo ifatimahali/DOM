@@ -128,6 +128,10 @@ text-transform: uppercase;
     color:#003147;
     border-bottom: 1px solid #003147;
 }
+.namePer{
+    color:#003147;
+
+}
 strong{
     color:gray;
     text-transform: uppercase;
