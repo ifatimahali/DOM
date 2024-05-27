@@ -1,3 +1,66 @@
+/*function changeContent(element, newText) {
+    let mytext = element.textContent;
+
+    element.onmouseover = function() {
+        element.textContent = newText;
+    };
+
+    element.onmouseout = function() {
+        element.textContent = mytext;
+    };
+}
+
+//1-my name and my profile
+let myName = document.querySelector('.namePer');
+changeContent(myName, "Fatimah Hakami");
+let mySpec = document.querySelector('.MM');
+changeContent(mySpec, "Computer Science");
+mySpec.style.borderBottom = "1px solid #003147";
+let myprofile = document.querySelector('.profile');
+changeContent(myprofile, "Computer Science graduate with a Bachelor's degree from Jazan University. I Possessing diverse skills in rogramming languages, app, and web development. Highly proficient in communication and teamwork. Aspiring to work in a professional environment to effectively contribute to its goals. Seeking a technical position or one related to my field");
+//2 work experince
+let workExp = document.querySelector('.experience-container');
+changeContent(workExp, "Doroby COM Higher Institute");
+let workExpYear = document.getElementsByTagName('span');
+changeContent(workExpYear, "18 July 2023 – 10 Aug 2023");
+//3- change number , email, location , www
+let mynumber = document.querySelector('.list-icon1');
+changeContent(mynumber, "0542179178");
+let myemail = document.querySelector('.list-icon2');
+changeContent(myemail, "fatimahalli318@gmail.com");
+let mylocation = document.querySelector('.list-icon3');
+changeContent(mylocation, "jazan,Saudi Arabia");
+let myWWW = document.querySelector('.list-icon4');
+changeContent(myWWW, "www.linkedin.com/in/fatimah-hakami/");
+//-4 my education
+var myeducation = document.querySelector('.no-space1');
+changeContent(myeducation, "2019 – 2023");
+var myeducation = document.querySelector('.no-space2');
+changeContent(myeducation, "Jazan University");
+var myeducation = document.querySelector('.master');
+changeContent(myeducation, "Bachelor's Degree in Computer Science");
+//5-my skills
+var mySkills = document.querySelector('.list-skills1');
+changeContent(mySkills, "Leadership.");
+var mySkills = document.querySelector('.list-skills2');
+changeContent(mySkills, "Teamwork.");
+var mySkills = document.querySelector('.list-skills3');
+changeContent(mySkills, "Organizational Skills.");
+var mySkills = document.querySelector('.list-skills4');
+changeContent(mySkills, "Adaptability.");
+var mySkills = document.querySelector('.list-skills5');
+changeContent(mySkills, "Microsoft Office Suite.");
+var mySkills = document.querySelector('.list-skills6');
+changeContent(mySkills, "Problem Solving.");
+var mySkills = document.querySelector('.list-skills7');
+changeContent(mySkills, "Communication Skills");
+//6-change language
+var myLanguage = document.querySelector('.list-lan1');
+changeContent(myLanguage, "Arabic");
+var myLanguage = document.querySelector('.list-lan2');
+changeContent(myLanguage, "Englisg");
+*/
+
 //cell elemnt by query selector from hmtl
 let myName = document.querySelector('.namePer');
 let mySpe = document.querySelector('.MM');
@@ -23,7 +86,6 @@ let phoneRef = document.querySelector('.phone');
 let phone2Ref = document.querySelector('.phone2');
 let emailRef = document.querySelector('.Email');
 let email2Ref = document.querySelector('.Email2');
-
 
 //function for Change content
 function toggleContent(element, newContent) {
@@ -86,11 +148,6 @@ setupToggle(phoneRef, "054556636366");
 setupToggle(emailRef, "fatimah@gmail.com");
 setupToggle(phone2Ref, "0500000000033");
 setupToggle(email2Ref, "helllllooooo@gmail.com");
-
-
-
-
-
 
 
 
