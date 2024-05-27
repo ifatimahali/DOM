@@ -97,7 +97,6 @@ function setupToggle(element, newContent) {
     element.onmouseout = () => toggleContent(element, element.getAttribute('my-contents'));
 }
 //storage my information in html
-img.setAttribute('my-contents', img.textContent);
 profile.setAttribute('my-contents', profile.textContent);
 listicon1.setAttribute('my-contents', listicon1.textContent);
 listicon2.setAttribute('my-contents', listicon2.textContent);
